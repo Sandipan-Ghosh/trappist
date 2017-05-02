@@ -24,6 +24,8 @@ export class Test {
     categoryAcList: Category[] = [];
     isEditTestEnabled: boolean;
     isQuestionMissing: boolean;
+    public isPaused: boolean;
+    public isLaunched: boolean;
     numberOfTestAttendees: number;
     numberOfTestSections: number;
     numberofTestQuestions: number;
