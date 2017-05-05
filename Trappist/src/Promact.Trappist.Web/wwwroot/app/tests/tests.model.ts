@@ -9,11 +9,11 @@ export class Test {
     link: string;
     startDate: Date;
     endDate: Date;
+    startTime: Date;
+    endTime: Date;
     duration: number;
-    warningTime: number;
     fromIpAddress: string;
     toIpAddress: string;
-    warningMessage: string;
     correctMarks: string;
     incorrectMarks: string;
     browserTolerance: number;

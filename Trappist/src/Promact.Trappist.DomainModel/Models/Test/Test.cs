@@ -18,6 +18,8 @@ namespace Promact.Trappist.DomainModel.Models.Test
         public BrowserTolerance BrowserTolerance { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
         public int Duration { get; set; }
         public int? WarningTime { get; set; }
         public string FromIpAddress { get; set; }

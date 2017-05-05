@@ -21,6 +21,10 @@ namespace Promact.Trappist.DomainModel.ApplicationClasses.Test
 
         public DateTime EndDate { get; set; }
 
+        public DateTime StartTime { get; set; }
+
+        public DateTime EndTime { get; set; }
+
         public int Duration { get; set; }
 
         public int? WarningTime { get; set; }
